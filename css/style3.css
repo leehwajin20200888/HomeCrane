@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  font-family : 'Roboto', sans-serif;
+}
+
+#header {position: relative;padding: 10px 0;border-bottom: 1px solid #ccc;display: flex; align-items: center; justify-content: space-between;}
+#logo img{object-fit: cover;image-rendering: -moz-crisp-edges;image-rendering: -o-crisp-edges;image-rendering: -webkit-optimize-contrast;-ms-interpolation-mode: nearest-neighbor;image-rendering: crisp-edges;width: 16%;margin-left: 50px;}
+body {margin: 0;}
+#menu {width: auto;}
+#menu li{float:left;margin-right: 30px;}
+#menu a li {font-size: 1.7rem;color: #444;margin-top: 5px;line-height: 60px;display:block;text-decoration: none} 
+#header ::after {clear: both;}
+
+select {
+  font-size: 17px;
+  border: none;
+  color: #636e72;
+  margin-bottom: 2px;
+}
+a {
+  color: #000;
+}
+ul {
+  list-style: none;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+li {
+  display: inline-block; 
+  width:38%;
+  padding: 10px;
+  padding: 10px;
+  margin: 5px;
+
+}
+.checked {
+  border: 1px solid #717171;
+  border-radius: 100px;
+}
+.idfind {
+  text-align: left;
+  margin: 0px 0px 30px 20px;
+
+}
+.shadow{
+    -webkit-box-shadow: 27px 43px 43px -26px rgba(63, 63, 63, 0.39);
+    -moz-box-shadow: 27px 43px 43px -26px rgba(63,63,63,0.39);
+    box-shadow: 27px 43px 43px -26px rgba(63,63,63,0.39);
+}
+body {
+    background: #eff0f2;
+}
+
+a:visited {
+  color : black;
+}
+a:hover {
+  color : #a5d2b2;
+}
+
+.bir {
+  
+}
+.loginForm {
+  position:absolute;
+  width:400px;
+  height:400px;
+  padding: 30px, 20px;
+  background-color:#fff;
+  text-align:center;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border-radius: 15px;
+}
+
+.loginForm h2{
+  text-align: center;
+  margin: 20px 0px 40px;
+}
+
+.idForm{
+  border-bottom: 2px solid #adadad;
+  margin: 20px;
+  padding: 10px 10px;
+}
+
+.passForm{
+  border-bottom: 2px solid #adadad;
+  margin: 0px 30px 15px;
+  padding: 10px 10px;
+}
+
+.id, .pw {
+  width: 100%;
+  border:none;
+  outline:none;
+  color: #636e72;
+  font-size:16px;
+  height:25px;
+  background: none;
+}
+
+.dd{
+  width: 100%;
+  border:none;
+  outline:none;
+  color: #636e72;
+  font-size:16px;
+  height:25px;
+  background: none;
+  text-align: center;
+}
+
+.idpw {
+    margin: 0px 0 10px ;
+}
+.idpw:hover {
+  color: #acd7b1;
+}
+
+.btn {
+  font-size: 18px; 
+  position:relative;
+  left:45%;
+  transform: translateX(-50%);
+  margin: 35px 0px;
+  width:350px;
+  height:40px;
+  background: rgb(187,226,198);
+  background: linear-gradient(90deg, rgba(187,226,198,1) 0%, rgba(172,215,177,1) 42%);
+  background-position: left;
+  background-size: 200%;
+  color:white;
+  font-weight: bold;
+  border:none;
+  cursor:pointer;
+  transition: 0.4s;
+  display:inline;
+}
+
+.bottomText {
+  text-align: center;
+}
+
+.idjForm{
+  border-bottom: 2px solid #adadad;
+  margin: 0px 30px 0px 10px;
+  padding: 5px 5px;
+}
+
+.passjForm-y{
+  text-align: right;
+  border-bottom: 2px solid #adadad;
+  margin: 10px 0px 0px 0px;
+  padding: 0px 0px;
+  width: 80px;
+}
+.passjForm-m{
+  text-align: right;
+  border-bottom: 2px solid #adadad;
+  margin: 10px 0px 0px 0px;
+  padding: 0px 0px;
+  width: 80px;
+}
+.passjForm-d{
+  border-bottom: 2px solid #adadad;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px;
+  width: 80px;
+}
+.align {
+  padding-right: 20px;
+}
+.dd{
+  width: 100%;
+  border:none;
+  outline:none;
+  color: #636e72;
+  font-size:16px;
+  height:25px;
+  background: none;
+  text-align: right;
+}
+.passjForm-n {
+  border-bottom: 2px solid #adadad;
+  margin: 0px 0px 0px 30px;
+  padding: 0px 0px;
+  width: 70px;
+}
+.passjForm-ad {
+  border-bottom: 2px solid #adadad;
+  margin: 0px 20px 0px 0px;
+  width: 270px;
+}
+
+.clear {
+  clear: none;
+}
+.fl, .f2, .f3 {
+  display: inline-block;
+}
+
+#join-ps {
+  padding: 0px;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: left;
+  margin: 20px 0px 10px 35px;
+}
+
+#join-t {
+  padding: 0px;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: left;
+  margin: 20px 0px 10px 30px;
+}
+.agree {
+  margin: 12px 0px 16px 35px;
+  text-align: left;
+}
+.age {
+  color: #636e72;
+  text-align: left;
+  font-size: 14px;
+  margin: 0px 0px 5px 20px;
+}
+.year {
+  margin: -0px 0px 0px -110px;
+
+}
+.address {
+  margin-left: 0px;
+}
+

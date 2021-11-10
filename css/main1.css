@@ -1,0 +1,74 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+* {margin: 0;padding: 0;list-style: none;font-family: 'Roboto', sans-serif;box-sizing:border-box;}
+a{color: #444444;}
+section{height: 70vh;}
+a:visited a:hover a:active a:link {color: #444444;}
+body {position: fixed;width: 100%;height: 100%;min-height: 100vh;max-height: 100%;}
+
+#header {position: relative;padding: 10px 0;border-bottom: 1px solid #ccc;display: flex; align-items: center; justify-content: space-between;}
+#logo img{object-fit: cover;image-rendering: -moz-crisp-edges;image-rendering: -o-crisp-edges;image-rendering: -webkit-optimize-contrast;-ms-interpolation-mode: nearest-neighbor;image-rendering: crisp-edges;width: 16%;margin-left: 50px;}
+body {margin: 0;}
+#menu {width: auto;}
+#menu li{float:left;margin-right: 30px;}
+#menu a li {font-size: 1.7rem;color: #444;margin-top: 5px;line-height: 60px;display:block;text-decoration: none} 
+#header ::after {clear: both;}
+
+.footer{position: fixed;bottom: 0;text-align: center;font-size: 15px;background-color: #292929;color:white;width: 100%;padding: 24px;}
+.outer {width:auto;height: 70vh;}
+.bgcolor {text-align: center;width:auto;height:100%;background: #e2eac1;position:fixed;left: 50px;top:1px;margin-left: 10px;}
+.slideshow-container .img1 {width: auto;height: 65vh;background: rgb(244,232,182);background: linear-gradient(90deg, rgba(244,232,182,1) 0%, rgba(241,215,142,1) 100%);}
+.slideshow-container .img2 {width: auto;height: 65vh;background: rgb(213,232,214);background: linear-gradient(180deg, rgba(213,232,214,1) 0%, rgba(165,210,178,1) 50%);}
+
+/* Slideshow container */
+.slideshow-container {max-width: auto;max-height: 750px;position: relative;margin: 0;}
+
+/* Hide the images by default */
+.mySlides {display: none;}
+
+/* Next & previous buttons */
+.prev, .next {cursor: pointer;position: absolute;top: 50%;width: auto;margin-top: -22px;padding: 16px;color: white;font-weight: bold;font-size: 18px;transition: 0.6s ease;border-radius: 0 3px 3px 0;user-select: none;}
+a.prev,  a.next {font-size: 50px;} 
+
+/* Position the "next button" to the right */
+.next {right: 0;border-radius: 3px 0 0 3px;}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {}
+.main1 {position: absolute;bottom: 3px;width: 20%;left: 25%;}
+.btn {position: absolute;bottom: 8%;width: 17%;left: 60%;}
+.main2 {position: absolute;top: 0px;width: 14%;left: 65%;}
+
+/* Caption text */
+.mtest {font-family : 'Jua', sans-serif;color: #3b5047;font-size: 40pt;position: absolute;top: 40%;width: auto;left: 21%;text-align: center;}
+.text {font-family : 'Jua', sans-serif;color: #3b5047;position: absolute;font-size: 24px;width: auto;left: 50%;bottom: -2%; transform: translate(-50%, -50%);padding: 12px 24px; border: 1px solid #292929;border-radius: 24px;text-align: center;}
+
+/* Number text (1/3 etc) */
+.numbertext {color: #f2f2f2;font-size: 12px;padding: 8px 12px;position: absolute;top: 0;}
+/* The dots/bullets/indicators */
+.dot {cursor: pointer;height: 15px;width: 15px;margin: 0 2px;background-color: #bbb;border-radius: 50%;display: inline-block;transition: background-color 0.6s ease;}
+
+.active, .dot:hover {background-color: #717171;}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+@media(min-width: 1800px) {
+  .mtest {
+    font-family: 'Jua', sans-serif;
+    color: #3b5047;
+    font-size: 50pt;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    left: 21%;
+    text-align: center;
+  }
+}
+

@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  font-family : 'Roboto', sans-serif;
+}
+.shadow{
+    -webkit-box-shadow: 27px 43px 43px -26px rgba(63, 63, 63, 0.39);
+    -moz-box-shadow: 27px 43px 43px -26px rgba(63,63,63,0.39);
+    box-shadow: 27px 43px 43px -26px rgba(63,63,63,0.39);
+}
+body {
+    background: #eff0f2;
+}
+select {
+  font-size: 15px;
+  margin-bottom: 2.1px;
+}
+a{
+  color: #444444;
+}
+
+a:visited {
+  color : black;
+}
+a:hover {
+  color : #a5d2b2;
+}
+
+select {
+  border: none;
+  font-size: 16px;
+  color: #636e72;
+}
+
+.loginForm {
+  box-sizing: border-box;
+  position:absolute;
+  width:400px;
+  height:410px;
+  padding: 30px, 20px;
+  background-color:#fff;
+  text-align:center;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border-radius: 15px;
+}
+
+.loginForm h2{
+  text-align: center;
+  margin: 20px 0px 40px;
+}
+
+.idForm{
+  border-bottom: 2px solid #adadad;
+  margin: 30px;
+  padding: 10px 10px;
+}
+
+.passForm{
+  border-bottom: 2px solid #adadad;
+  margin: 30px 30px 15px;
+  padding: 10px 10px;
+}
+
+.id, .pw {
+  width: 100%;
+  border:none;
+  outline:none;
+  color: #636e72;
+  font-size:16px;
+  height:25px;
+  background: none;
+}
+
+.id2 {
+  width: 100%;
+  border:none;
+  outline:none;
+  color: #636e72;
+  font-size:16px;
+  height:25px;
+  background: none;
+}
+
+.address {
+  width: 100%;
+  border:none;
+  outline:none;
+  color: #636e72;
+  font-size:16px;
+  height:25px;
+  background: none;
+}
+.dd { 
+  width: 100%;
+  border:none;
+  outline:none;
+  color: #636e72;
+  font-size:16px;
+  height:25px;
+  background: none;
+  text-align: right;
+}
+
+.id-save {
+  font-size: 15px;
+  color: #636e72;
+  text-align: left;
+  margin: 0px 35px 30px;
+
+}
+.idpw {
+    margin: 0px 0 10px ;
+}
+.idpw:hover {
+  color: #acd7b1;
+}
+
+.btn {
+  font-size: 18px; 
+  position:relative;
+  left:45%;
+  transform: translateX(-50%);
+  margin-bottom: 20px;
+  width:350px;
+  height:40px;
+  background: rgb(187,226,198);
+  background: linear-gradient(90deg, rgba(187,226,198,1) 0%, rgba(172,215,177,1) 42%);
+  background-position: left;
+  background-size: 200%;
+  color:white;
+  font-weight: bold;
+  border:none;
+  cursor:pointer;
+}
+
+.bottomText {
+  text-align: center;
+}
+
+
+/*회원가입*/
+.end { height: 100px;}
+.joinForm {
+ 
+  box-sizing: border-box;
+  position:absolute;
+  width: 400px;
+  height:750px;
+  background-color:#fff;
+  text-align:center;
+  border-radius: 15px;
+  top: 50%;
+  left: 50%;
+  bottom: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+ 
+}
+/*
+v margin-top: 100px;
+top: 50%;
+  left:50%;
+  bottom: 50%;
+  margin-left: -150px;
+  transform: translate(0,-35%);
+*/
+.joinForm h2{
+  text-align: center;
+  margin: 20px 0px 40px;
+}
+#join-id {
+  padding: 0px;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+#join-em {
+  padding: 0px;
+  font-size: 10px;
+  text-align: left;
+  margin: 5px 0px 5px 35px;
+}
+#join-n {
+  padding: 0px;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 120px;
+  margin-top: 10px;
+}
+
+.idjForm{
+  border-bottom: 2px solid #adadad;
+  margin: 0px 30px 0px 30px;
+  padding: 5px 5px;
+}
+
+.passjForm{
+  border-bottom: 2px solid #adadad;
+  margin: 0px 30px 10px 30px;
+  padding: 5px 5px;
+}
+
+.passjForm-y{
+  text-align: right;
+  border-bottom: 2px solid #adadad;
+  margin: 2px 0px 0px 0px;
+  padding: 0px 0px;
+  width: 80px;
+}
+.passjForm-m{
+  text-align: right;
+  border-bottom: 2px solid #adadad;
+  margin: 2px 0px 0px 0px;
+  padding: 0px 0px;
+  width: 80px;
+}
+.passjForm-d {
+  border-bottom: 2px solid #adadad;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px;
+  width: 80px;
+}
+.passjForm-n {
+  border-bottom: 2px solid #adadad;
+  margin: 0px 0px 0px 30px;
+  padding: 5px 5px 0px;
+  width: 75px;
+}
+.passjForm-ad {
+  border-bottom: 2px solid #adadad;
+  margin: 0px 20px 0px 0px;
+  width: 250px;
+}
+
+.clear {
+  clear: none;
+}
+.fl, .f2, .f3 {
+  display: inline-block;
+}
+
+#join-ps {
+  padding: 0px;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: left;
+  margin: 20px 0px 10px 30px;
+}
+
+.join-t {
+  padding: 0px;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: left;
+  margin: 20px 0px 10px 30px;
+}
+
+.join-adrs {
+  padding: 0px;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: left;
+  margin: 20px 0px 10px 120px;
+}
+
+.agree {
+  margin: 12px 0px 28px 120px;
+  text-align: left;
+}
+
+.year {
+  margin-left: -90px;
+}
+.address {
+  margin-left: 0px;
+}
+
+.call {
+  margin-left: 90px;
+}
+.addiv {
+  margin-right: -80px;
+}
+

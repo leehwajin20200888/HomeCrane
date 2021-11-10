@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* { 
+  margin: 0;padding: 0;
+  box-sizing: border-box;
+  font-family : 'Roboto', sans-serif;
+}
+
+
+#header {position: relative;padding: 10px 0;border-bottom: 1px solid #ccc;display: flex; align-items: center; justify-content: space-between;}
+#logo img{object-fit: cover;image-rendering: -moz-crisp-edges;image-rendering: -o-crisp-edges;image-rendering: -webkit-optimize-contrast;-ms-interpolation-mode: nearest-neighbor;image-rendering: crisp-edges;width: 16%;margin-left: 50px;}
+body {margin: 0;}
+#menu {width: auto;}
+#menu li{float:left;margin-right: 30px;}
+#menu a li {font-size: 1.7rem;color: #444;margin-top: 5px;line-height: 60px;display:block;text-decoration: none} 
+#header ::after {clear: both;}
+
+
+body {
+  background-color: #eff0f2;
+}
+ul>li {
+  list-style: none
+}
+a {
+  text-decoration: none;
+}
+.clearfix::after { 
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*폼*/
+#joinForm {
+  box-sizing: border-box;
+  width: 460px;
+  margin: 0;
+}
+ul.join_box {
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+.checkBox,.checkBox>ul { 
+  position: relative;
+}
+
+.checkBox>ul>li:first-child {
+  width: 85%;
+  padding: 15px;
+  font-weight: 600;
+  color: #888;
+}
+.checkBox textarea {
+  width: 96%;height: 90px; 
+  margin: 0 2%;
+  background-color: #f7f7f7;
+  color: #888; 
+  border: none;
+}
+.footBtwrap { 
+  margin-top: 15px;
+}
+.footBtwrap>li{ 
+  float: left;
+  width: 50%;
+  height: 60px;
+}
+.footBtwrap>li>button { 
+  display: block; 
+  width: 220px;
+  height: 100%; 
+  font-size: 20px;
+  text-align: center;
+  line-height: 60px; 
+  margin-left: 5px;
+}
+.fpmgBt1 { 
+  background-color: #ddd;  
+  border: none;
+}
+.fpmgBt2 { 
+  background-color: #acd7b1;
+  color: #fff; 
+  border: none;
+}
